@@ -1,0 +1,47 @@
+.r-span {
+  color: #333333;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  font-weight: bold;
+}
+
+.shop-to {
+  color: #999999;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+}
+
+.shop-to-line {
+  color: #999999;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration: underline;
+}
+
+.addbox {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.05);
+  width: 306px;
+  height: 440px;
+  padding: 24px;
+}
+
+.element {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.text-ellipsis {
+  display: block;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

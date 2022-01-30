@@ -1,0 +1,18 @@
+.shipping-time {
+  color: #999999;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+}
+
+.shippingtime {
+  margin-top: 8px;
+  margin-bottom: 4px;
+}
+
+.icon-info {
+  width: 14px;
+  height: 14px;
+  margin: 0px 8px;
+}

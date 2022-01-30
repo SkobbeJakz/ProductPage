@@ -1,0 +1,78 @@
+.logo {
+  width: 76px;
+  height: 40px;
+}
+
+@media only screen and (max-width: 630px) {
+  .marchexpo .logo {
+    margin: 0 auto 1rem auto;
+  }
+}
+
+.free-shipping-up {
+  color: #ff6600;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+  padding: 14px;
+}
+
+@media only screen and (max-width: 630px) {
+  .free-shipping-up {
+    display: block;
+  }
+}
+
+.on-time-delivery-g {
+  color: #ff6600;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+  padding: 14px;
+}
+
+.marchexpo {
+  background-color: #fff0e6;
+  width: 526px;
+  max-width: 100%;
+  height: 40px;
+}
+
+@media only screen and (max-width: 630px) {
+  .marchexpo {
+    display: block;
+    height: auto;
+    padding: 0.8rem 0px;
+  }
+
+  .marchexpo .icon-forward {
+    margin-left: auto;
+    display: block;
+    width: 12px;
+    height: auto;
+    margin: 0 10px 0px auto;
+  }
+}
+
+.marchexpo {
+  margin-top: 8px;
+  margin-bottom: 12px;
+}
+
+.icon-forward {
+  width: 8px;
+  height: 14px;
+  margin: 14px;
+}
+
+@media only screen and (max-width: 630px) {
+  .marchexpo .icon-forward {
+    margin-left: auto;
+    display: block;
+    width: 12px;
+    height: auto;
+    margin: 0 10px 0px auto;
+  }
+}

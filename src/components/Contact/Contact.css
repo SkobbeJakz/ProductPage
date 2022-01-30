@@ -1,0 +1,33 @@
+.contact-supplier {
+  color: #ff6600;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  padding: 12px;
+  border-radius: 20px;
+  width: 258px;
+  height: 40px;
+  cursor: pointer;
+  justify-content: center;
+  border: 1px solid #ff6600;
+  background: #ffffff url(../../assets/imgs/icons8-envelope.png) 36px 14px
+    no-repeat;
+  transition: all 0.5s ease;
+}
+
+.icon-envelop {
+  width: 14px;
+  height: 12px;
+}
+
+.contact {
+  margin-top: 8px;
+}
+
+button.contact-supplier:hover {
+  color: #ffffff;
+  background: #000000 url(../../assets/imgs/icons8-envelope.png) 36px 14px
+    no-repeat;
+  border-color: #000000;
+}

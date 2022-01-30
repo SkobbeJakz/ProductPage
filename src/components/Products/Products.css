@@ -1,0 +1,86 @@
+.input-quantity {
+  color: #999999;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  width: 80px;
+  text-align: center;
+}
+
+.r-value {
+  color: #333333;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+  padding: 12px 0px;
+}
+
+.product {
+  width: max-content !important;
+  color: #333333;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  width: 174px;
+  text-align: left;
+  padding: 12px 0px;
+}
+
+.attribute {
+  color: #999999;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  width: 112px;
+  text-align: left;
+  padding: 12px 0px;
+  margin-bottom: 0.5rem;
+}
+
+.products-item-wrapper {
+  width: 100%;
+}
+
+.products {
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+@media only screen and (max-width: 630px) {
+  .products {
+    display: block;
+  }
+}
+
+.item-details {
+  justify-content: space-between;
+  min-width: 53%;
+}
+
+.icon-plus {
+  width: 14px;
+  height: 14px;
+  margin: 12px;
+}
+
+.icon-minus {
+  width: 14px;
+  height: 2px;
+  margin: 19px 12px;
+}
+
+.icon-box {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #999999;
+  cursor: pointer;
+}
+
+.item {
+  justify-content: space-between;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}

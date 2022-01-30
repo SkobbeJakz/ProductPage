@@ -1,0 +1,30 @@
+.payment-span {
+  color: #999999;
+  font-family: Roboto;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: left;
+}
+
+.icon-visa {
+  width: 17px;
+  height: 12px;
+  margin: 2px;
+}
+
+.icon-mastercard {
+  width: 17px;
+  height: 12px;
+  margin: 2px;
+}
+
+.icon-apple-pay {
+  width: 28px;
+  height: 12px;
+  margin: 2px;
+}
+
+.payments {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}

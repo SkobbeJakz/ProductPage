@@ -1,0 +1,50 @@
+.timer {
+  color: #999999;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 24px;
+  text-align: left;
+  animation-name: glow;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+
+.dicount-ends-in {
+  color: #999999;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+  padding: 4px;
+}
+
+.off {
+  color: #ff6600;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+  padding: 4px;
+}
+
+.countdowntimer {
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+
+.clock-icon {
+  width: 16px;
+  height: 16px;
+  margin: 2px 12px 2px 24px;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0px 0px 5px #ff6600, 0px 0px 5px #fd7920;
+  }
+  to {
+    text-shadow: 0px 0px 20px #fff, 0px 0px 20px #fffdfc;
+  }
+}

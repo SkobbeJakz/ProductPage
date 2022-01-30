@@ -1,0 +1,16 @@
+.col-products {
+  padding-top: 60px;
+}
+
+.r-value {
+  color: #333333;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+  padding: 12px 0px;
+}
+
+.qty {
+  padding-right: 65px;
+}

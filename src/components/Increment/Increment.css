@@ -1,0 +1,86 @@
+.input-quantity {
+  width: 80px;
+  height: 40px;
+  border-width: 0;
+}
+
+.r-value {
+  color: #333333;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+  padding: 12px 0px;
+}
+
+.product {
+  color: #333333;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  width: 174px;
+  text-align: left;
+  padding: 12px 0px;
+}
+
+.attribute {
+  color: #999999;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  width: 112px;
+  text-align: left;
+  padding: 12px 0px;
+}
+
+.products {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.icon-box {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #999999;
+  cursor: pointer;
+}
+
+.item {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.button-increment {
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid #ff6600;
+  border-radius: 0 2px 2px 0;
+  width: 40px;
+  height: 40px;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.button-decrement {
+  border-radius: 0 2px 2px 0;
+  width: 40px;
+  height: 40px;
+  border: none;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+button.button-decrement:hover {
+  background: #ff6600;
+  border-color: #ff6600;
+}
+
+button.button-decrement:disabled:hover {
+  background: #ffffff;
+  border-color: #ffffff;
+}
+
+button.button-increment:hover {
+  color: #ffffff;
+  background: #000000;
+  border-color: #000000;
+}
