@@ -1,16 +1,17 @@
-import React from "react";
+import React, { Component, useState } from "react";
 import "./CountdownTimer.css";
-import { useState, useEffect } from "react";
 import clockIcon from "../../assets/imgs/icons8-clock.png";
 
-const CountdownTimer = (props) => {
-  if (Object.keys(props.product).length === 0) {
-    return null;
+export default class CountdownTimer extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      timeLeft: null,
+    };
   }
 
-  // left time
-  const calculateTimeLeft = () => {
-    let expireDate = new Date("2022-01-31T07:22:58+01:00");
+  calculateTimeLeft = () => {
+    let expireDate = new Date("2022-04-31T07:22:58+01:00");
     let difference = expireDate - +new Date();
 
     let timeLeft = {};
@@ -24,27 +25,24 @@ const CountdownTimer = (props) => {
       };
     }
 
-    return timeLeft;
+    this.setState({ timeLeft: timeLeft });
   };
 
-  const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
+  componentDidMount() {
+    setInterval(() => this.calculateTimeLeft(), 1000);
+  }
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setTimeLeft(calculateTimeLeft());
-    }, 1000);
-
-    return () => clearTimeout(timer);
-  });
-
-  return (
-    <div className="row Countdowntimer">
-      <span className="off">20% OFF</span>
-      <span className="dicount-ends-in">Discount ends in</span>
-      <img src={clockIcon} className="img clock-icon" alt="Icon-Clock" />
-      <span className="timer">{`${timeLeft.days}d:${timeLeft.hours}h:${timeLeft.minutes}m:${timeLeft.seconds}s`}</span>
-    </div>
-  );
-};
-
-export default CountdownTimer;
+  render() {
+    return (
+      <div className="row Countdowntimer">
+        <span className="off">20% OFF</span>
+        <span className="dicount-ends-in">Discount ends in</span>
+        <img src={clockIcon} className="img clock-icon" alt="Icon-Clock" />
+        <span className="timer">
+          {this.state.timeLeft &&
+            `${this.state.timeLeft.days}d:${this.state.timeLeft.hours}h:${this.state.timeLeft.minutes}m:${this.state.timeLeft.seconds}s`}
+        </span>
+      </div>
+    );
+  }
+}
