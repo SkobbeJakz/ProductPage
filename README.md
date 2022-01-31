@@ -1,3 +1,8 @@
+# IMPORTANT: Before you run!
+
+- Make sure the extracted folder does not nest the project folder. Otherwise the code editor will not know the file directory
+- Run "npm install react-scripts --save" in the console before running "npm start" to install all necessary dependencies.
+
 # Introduction
 
 This is a project where I had to implement a product detail page matching the provided desktop design. I tried to keep all the components as simple as possible while also looking at re-useability.
